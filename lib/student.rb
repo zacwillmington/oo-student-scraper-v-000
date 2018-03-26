@@ -19,7 +19,7 @@ class Student
       #
     #   end
     students_array.each do |student|
-        self.class.new(student)
+        self.new(student)
     end
 
 
