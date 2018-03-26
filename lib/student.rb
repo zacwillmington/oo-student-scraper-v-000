@@ -16,7 +16,7 @@ class Student
           @name = student[:name]
           @location = student[:location]
           @@all << student
-          
+
       end
 
   end
