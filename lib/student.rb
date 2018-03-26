@@ -16,12 +16,12 @@ class Student
     #       @name = student[:name]
     #       @location = student[:location]
     #       @@all << student
-      # 
+      #
     #   end
     students_array.each do |student|
         self.class.new(student)
     end
-    
+
 
   end
 
