@@ -19,6 +19,12 @@ class Student
   def add_student_attributes(attributes_hash)
       attributes_hash.each do |attributes|
           @twitter = attributes[:twitter]
+          @linkedin = attributes[:linkedin]
+          @github = attributes[:github]
+          @blog = attributes[:blog]
+          @profile_quote = attributes[:profile_quote]
+          @bio = attributes[:bio]
+          @profile_url = attributes[:profile_url]
       end
   end
 
