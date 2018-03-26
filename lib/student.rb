@@ -16,7 +16,7 @@ class Student
           student[:name] = @name
           student[:location] = @location
           @@all << student
-          binding.pry
+          
       end
 
   end
